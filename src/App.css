@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
 .App {
   text-align: center;
   background-color: #282c34;
@@ -128,15 +133,26 @@ flex-wrap: wrap;
 
 .nav-link{
   display: inline;
-  padding-right: 5%;
+  margin-right: 5%;
   margin-top: 1%;
   float: right;
+  
+}
+
+.nav-link:hover{
+  cursor: pointer;
   
 }
 
 li{
   list-style: none;
 }
+
+a {text-decoration: none;}
+a:visited { text-decoration: none; color:rgb(52, 90, 102); }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:lightblue; }
+a:hover, a:active { text-decoration: none; color:darkslateblue }
 
 /* .merit{
 

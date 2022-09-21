@@ -2,9 +2,11 @@ import React from 'react'
 
 export default function Cv() {
   return (
-    <div className='cv'>
+    <>
+    <br id='cv'></br>
+    <div className='cv' >
 
-      <h2>CV</h2>
+      <h2 style={{marginLeft:"10%"}}>CV</h2>
 
     <ul>
 
@@ -29,7 +31,7 @@ export default function Cv() {
 
       <ul >
         <h3>Certifikat</h3>
-        <a href='https://www.credly.com/badges/06a98900-f638-4276-a483-77e3b10498c9/public_url' target="_blank">CyberOps Associate</a>
+        <a href='https://www.credly.com/badges/06a98900-f638-4276-a483-77e3b10498c9/public_url' target="_blank" style={{color:"lightblue"}}>CyberOps Associate</a>
           
       </ul>
       
@@ -37,5 +39,6 @@ export default function Cv() {
     </ul>
 
     </div>
+    </>
   )
 }
