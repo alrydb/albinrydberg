@@ -44,6 +44,17 @@ html {
 }
 
 
+img{
+    /* width: 256px;
+    height: ; */
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    
+
+}
+
 .biography{
   
   /* background-color: #282c34; */
@@ -79,8 +90,8 @@ flex-wrap: wrap;
 }
 
 .project {
-  width: 510px;
-  height: 460px;
+  width: 555px;
+  height: 425px;
   margin: 1.5rem;
   font-size: 16px;
 
@@ -95,6 +106,7 @@ flex-wrap: wrap;
 
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
   box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+
 }
 
 .cv{
