@@ -8,10 +8,10 @@ export default function ProjectList() {
       
       
 
-          <div className='project'><img src='images/projectvaderapp.png' alt="" /></div>
-          <div className='project'><img src='images/projectgamessite.png' alt="" /></div>
-          <div className='project'><img src="https://via.placeholder.com/150" alt="" /></div>
-          <div className='project'><img src="https://via.placeholder.com/150" alt="" /></div>
+          <div className='project'> <p>Väderapp - Android</p><img src='images/projectvaderapp.png' alt="" /> </div>
+          <div className='project'> <p>Games Directory - React</p><img src='images/projectgamessite.png' alt="" /> </div>
+          <div className='project'> <img src="https://via.placeholder.com/150" alt="" /> </div>
+          <div className='project'> <img src="https://via.placeholder.com/150" alt="" /> </div>
          
   
       
