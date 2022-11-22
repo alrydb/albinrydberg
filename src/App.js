@@ -3,21 +3,23 @@ import './App.css';
 import ProjectList from './components/ProjectList';
 import Cv from './components/Cv';
 import Biography from './components/Biography';
-import Popup from './components/Popup';
-import { useState } from 'react';
+import Project from './components/Project';
+
 
 
 function App() {
-  const [buttonPopup, setButtonPopup] = useState(false)
+  // const [buttonPopup, setButtonPopup] = useState(false)
   return (
     <div className="App">
       <Navbar></Navbar>
       <Biography></Biography>
-      <ProjectList></ProjectList>
+      {/* <ProjectList></ProjectList> */}
       {/* <Popup trigger={buttonPopup}>
         <h3>my popup</h3>
       </Popup> */}
       <Cv></Cv>
+      <Project></Project>
+    
       
       <header className="App-header">
         
