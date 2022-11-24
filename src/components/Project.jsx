@@ -1,9 +1,9 @@
 import React from 'react'
 
 function Project() {
-  return (
-    <div className='project'>Project</div>
-  )
+
+    <div className='project' ></div>;
+  
 }
 
 export default Project
