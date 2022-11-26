@@ -44,17 +44,19 @@ html {
 }
 
 
-img{
+ .project img{
     /* width: 256px;
     height: ; */
 
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    padding-bottom: 10%;
-    
+    padding-bottom: 10%;    
 
 }
+
+
+
 
 .biography{
   
@@ -148,10 +150,12 @@ flex-wrap: wrap;
 
 .popup-inner{
   position: relative;
-  padding: 32px;
+  /* padding: 32px; */
   width: 100%;
-  max-width: 640px;
-  background-color: white;
+  max-width: 840px;
+  background-color: #31333a;
+ 
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.4);
 }
 
 .popup-inner .close-btn{
@@ -160,6 +164,60 @@ flex-wrap: wrap;
   right: 16px;
 
 }
+
+.project-popup
+{
+  width: 555px;
+  height: 425px;
+  /* margin: 1.5rem; */
+  font-size: 16px;
+
+  /* margin-right: 10%;
+  margin-left: 10%; */
+
+  /* position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  border: none;
+  display: inline-block; */
+
+    background-color: #31333a;
+
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.4);
+
+}
+
+
+.popup-inner p{
+  color: white;
+  text-align: left;
+  /* margin-left: 50px;
+  margin-top: 0; */
+  margin: 0;
+  padding-top: 2%;
+  padding-left: 2%;
+  font-size: 20px;
+}
+
+.popup-top{
+
+  background-color: #282c34;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  /* width: 840px;
+  height: 366px; */
+
+}
+
+.popup-bottom{
+
+ 
+  padding: 2%;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.4);
+ 
+}
+
 
 
 
