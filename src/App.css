@@ -281,6 +281,55 @@ a:hover { text-decoration: none; color:blue; }
 a:focus { text-decoration: none; color:lightblue; }
 a:hover, a:active { text-decoration: none; color:darkslateblue }
 
+
+.close-btn{
+
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  opacity: 0.5;
+
+}
+
+@media (max-width: 985px) {
+
+  .navbar{
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.4);
+    background-color: blue;
+    border-style: solid;
+    border-color: #31333a;
+    height: 100px;
+    position: sticky; top: 0;
+    /* background-color: white; */
+    z-index: 5;
+    
+  }
+
+
+  .popup-inner{
+    position: relative;
+    /* padding: 32px; */
+    width: 100%;
+    max-width: 420px;
+    background-color: #31333a;
+   
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.4);
+  }
+
+  
+   
+      
+
+
+
+}
+
+
+
+
+
 /* .merit{
 
 display: block;
@@ -288,3 +337,6 @@ display: block;
   margin-top: 1%;
   float: right;
 } */
+
+
+
