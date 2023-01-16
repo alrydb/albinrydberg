@@ -1,10 +1,15 @@
 import React from 'react'
+import { useState } from 'react'
 
 
-export default function navbar() {
+export default function Navbar() {
+  const [hamburgerMenu, setHamburgerMenu] = useState(false)
+
   return (
+
+    <>
   
-<div className='navbar'>
+<div className= 'navbar'>
 
   {/* <p className='name'>Albin Rydberg</p> */}
 
@@ -23,6 +28,31 @@ export default function navbar() {
 
 </div>
 
+
+<div className= 'navbar-mobile'>
+
+  {/* <p className='name'>Albin Rydberg</p> */}
+
+{/* <ul>
+
+<li className='nav-link' ><a href="#albinRydberg">Albin Rydberg</a></li>
+<li className='hamburger-menu'>  </li>
+
+
+
+</ul> */}
+
+<div className='nav-link'> <a href="#albinRydberg">Albin Rydberg</a></div>
+<div className='hamburger-menu-icon' onClick={() => {hamburgerMenu ? setHamburgerMenu(false) : setHamburgerMenu(true)}}></div>
+
+
+
+
+</div>
+<div className={hamburgerMenu ? 'hamburger-menu-visible' : 'hamburger-menu-hidden'}> adasd </div>
+
+
+</>
     
   
   )
