@@ -334,6 +334,10 @@ a:hover, a:active { text-decoration: none; color:darkslateblue }
     display: block
   }
 
+  .hamburger-menu-icon:hover{
+    cursor: pointer;
+  }
+
   .hamburger-menu-icon-stripe{
 
      width: 35px;
@@ -346,7 +350,7 @@ a:hover, a:active { text-decoration: none; color:darkslateblue }
   .hamburger-menu-visible{
 
     box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.4);
-    background-color: #5e5e61;
+    background-color: #2f3135;
     border-style: solid;
     border-color: #31333a;
     position: fixed;
@@ -357,6 +361,9 @@ a:hover, a:active { text-decoration: none; color:darkslateblue }
     z-index: 5;
     visibility: visible;
 
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+
   }
 
 
@@ -365,6 +372,9 @@ a:hover, a:active { text-decoration: none; color:darkslateblue }
     margin-top: 5%;
     margin-left: 5%;
     float: left;
+
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
     
   }
 
@@ -467,6 +477,44 @@ a:hover, a:active { text-decoration: none; color:darkslateblue }
    
       
 
+    @keyframes fadeIn { 
+      0% { opacity: 0; }
+      10% {opacity: 0,1;}
+      20% { opacity: 0.2; }
+      40% { opacity: 0.3; }
+      60% { opacity: 0.5; }
+      80% { opacity: 0.9; }
+      100% { opacity: 1; }
+    }
+
+    @media (max-width: 400px)
+    {
+
+      .project {
+        width: 200px;
+        height: 200px;
+        margin: 1.5rem;
+        font-size: 16px;
+      
+        /* margin-right: 10%;
+        margin-left: 10%; */
+      
+        position: relative;
+        border-radius: 12px;
+        overflow: hidden;
+        border: none;
+        display: inline-block;
+      
+          background-color: #31333a;
+      
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+        box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.4);
+      
+      }
+
+
+
+    }
 
 
 }
