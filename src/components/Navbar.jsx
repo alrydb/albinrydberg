@@ -43,13 +43,27 @@ export default function Navbar() {
 </ul> */}
 
 <div className='nav-link'> <a href="#albinRydberg">Albin Rydberg</a></div>
-<div className='hamburger-menu-icon' onClick={() => {hamburgerMenu ? setHamburgerMenu(false) : setHamburgerMenu(true)}}></div>
+<div className='hamburger-menu-icon' onClick={() => {hamburgerMenu ? setHamburgerMenu(false) : setHamburgerMenu(true)}}>
+<div className='hamburger-menu-icon-stripe'></div>
+<div className='hamburger-menu-icon-stripe'></div>
+<div className='hamburger-menu-icon-stripe'></div>
+
+</div>
+
+
 
 
 
 
 </div>
-<div className={hamburgerMenu ? 'hamburger-menu-visible' : 'hamburger-menu-hidden'}> adasd </div>
+<div className={hamburgerMenu ? 'hamburger-menu-visible' : 'hamburger-menu-hidden'}> 
+
+<li className='nav-link'> <a href="https://github.com/alrydb" target="_blank"> Github</a> </li>
+<li className='nav-link'><a href="https://www.linkedin.com/in/albin-rydberg-a130181a7/" target="_blank"> LinkedIn</a></li>
+<li className='nav-link'><a href='#cv'>CV</a></li>
+<li className='nav-link'><a href='#projects'>Projekt</a></li>
+
+</div>
 
 
 </>
