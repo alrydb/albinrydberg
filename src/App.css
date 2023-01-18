@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia+Sans+Semi+Condensed");
+
+:root {
+  --font-sofia: "Sofia Sans Semi Condensed", serif;
+
+}
+
+body{
+  font-family: var(--font-sofia);
+}
+
 html {
   scroll-behavior: smooth;
 }
