@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/albinrydberg/static/css/main.024d384f.css",
+    "main.js": "/albinrydberg/static/js/main.90690c90.js",
+    "index.html": "/albinrydberg/index.html",
+    "main.024d384f.css.map": "/albinrydberg/static/css/main.024d384f.css.map",
+    "main.90690c90.js.map": "/albinrydberg/static/js/main.90690c90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.024d384f.css",
+    "static/js/main.90690c90.js"
+  ]
+}
