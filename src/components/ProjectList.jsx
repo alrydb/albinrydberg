@@ -11,8 +11,8 @@ export default function ProjectList() {
   const [linkPopup, setLinkPopup] = useState([''])
 
 
-  const descriptionVaderApp = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero alias ipsam quaerat nihil natus pariatur consequuntur ea a aspernatur repudiandae Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero alias ipsam quaerat nihil natus pariatur consequuntur ea a aspernatur repudiandae";
-  const descriptionGamesDirectory = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero alias ipsam quaerat nihil natus pariatur consequuntur ea a aspernatur repudiandae Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero alias ipsam quaerat nihil natus pariatur consequuntur ea a aspernatur repudiandae  "
+  const descriptionVaderApp = "En väderapp utvecklad i syfte att lära mig android-utveckling med Kotlin. Använder sig av openweathermap.org API för att hämta väderdata. I appen så kan man söka på platser för att sedan få en detaljerad 24-timmars väderprognos samt en översiktlig 7-dagars väderprognos. Platser kan sedan sparas som favoriter för enkel åtkomst"
+  const descriptionGamesDirectory = "Mitt första projekt skapat med React.  The Games Directory är en hemsida där man kan söka på speltitlar, eller spelutvecklare, och se inforamtion om saker som lanseringsdatum, en beskrivning av spelet, metacrtitic poäng m.m, för varje spel."
 
   const titleVaderApp ="Väderapp - Android"
   const titleGamesDirectory = "The Games Directory - React"
@@ -25,14 +25,14 @@ export default function ProjectList() {
 
   return (
     <div className='projectList' id='projects'>
-      <h2>Mina Projekt.</h2>
+      <h2 style={{paddingRight:"25%", paddingLeft:"25%"}}>Mina Projekt.</h2>
       
 
 
           <div className='project' onClick={() =>  {setButtonPopup(true); setTitlePopup(titleVaderApp);setDescriptionPopup(descriptionVaderApp); setImagePopup(imageVaderApp); setLinkPopup(linkVaderApp)}}> <p>{titleVaderApp}</p><img src={imageVaderApp} alt="" /> </div>
           <div className='project' onClick={() => { setButtonPopup(true); setTitlePopup(titleGamesDirectory);setDescriptionPopup(descriptionGamesDirectory); setImagePopup(imageGamesDirectory); setLinkPopup(linkGamesDirectory)}}> <p>{titleGamesDirectory}</p><img src={imageGamesDirectory}alt="" /> </div>
-          <div className='project'> <img src="https://via.placeholder.com/150" alt="" /> </div>
-          <div className='project'> <img src="https://via.placeholder.com/150" alt="" /> </div>
+          {/* <div className='project'> <img src="https://via.placeholder.com/150" alt="" /> </div>
+          <div className='project'> <img src="https://via.placeholder.com/150" alt="" /> </div> */}
          
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup} >
         
