@@ -13,6 +13,11 @@ html {
   scroll-behavior: smooth;
 }
 
+iframe{
+  width:560px;
+  height:315px;
+}
+
 
 .App {
   text-align: center;
@@ -31,6 +36,7 @@ html {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;
@@ -322,7 +328,11 @@ a:hover, a:active { text-decoration: none; color:darkslateblue }
 
 @media (max-width: 985px) {
 
-
+  iframe{
+    width:360px;
+    height:315px;
+  }
+  
 
   .navbar-mobile{
     box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.4);
@@ -351,7 +361,7 @@ a:hover, a:active { text-decoration: none; color:darkslateblue }
 
   .hamburger-menu-icon-stripe{
 
-     width: 35px;
+    width: 35px;
     height: 5px;
     background-color: white;
     margin: 6px 0;
