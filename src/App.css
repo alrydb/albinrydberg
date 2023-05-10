@@ -294,11 +294,12 @@ li{
   list-style: none;
 }
 
-a {text-decoration: none;}
+a {text-decoration: none; color:lightblue}
 a:visited { text-decoration: none; color:white; }
-a:hover { text-decoration: none; color:blue; }
+a:hover { text-decoration: none; color:lightblue; }
 a:focus { text-decoration: none; color:lightblue; }
-a:hover, a:active { text-decoration: none; color:darkslateblue }
+a:default {text-decoration: none; color:lightblue}
+/* a:hover, a:active { text-decoration: none; color:darkslateblue } */
 
 
 .close-btn{
