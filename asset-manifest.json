@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/albinrydberg/static/css/main.7b990066.css",
-    "main.js": "/albinrydberg/static/js/main.ce92a654.js",
+    "main.css": "/albinrydberg/static/css/main.c301b2fa.css",
+    "main.js": "/albinrydberg/static/js/main.404726af.js",
     "index.html": "/albinrydberg/index.html",
-    "main.7b990066.css.map": "/albinrydberg/static/css/main.7b990066.css.map",
-    "main.ce92a654.js.map": "/albinrydberg/static/js/main.ce92a654.js.map"
+    "main.c301b2fa.css.map": "/albinrydberg/static/css/main.c301b2fa.css.map",
+    "main.404726af.js.map": "/albinrydberg/static/js/main.404726af.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b990066.css",
-    "static/js/main.ce92a654.js"
+    "static/css/main.c301b2fa.css",
+    "static/js/main.404726af.js"
   ]
 }
