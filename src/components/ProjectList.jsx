@@ -26,6 +26,7 @@ export default function ProjectList() {
 
   const imageVaderApp = 'images/projectvaderapp.png'
   const imageGamesDirectory = 'images/projectgamessite.png'
+  const imageHeroSurvivor = 'images/projectherosurvivor.png'
 
   const videoVaderapp = <iframe src="https://www.youtube.com/embed/-33V_B4zhz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   const videoGamesDirectory = <iframe src="https://www.youtube.com/embed/-H1CeSBgx58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -43,7 +44,7 @@ export default function ProjectList() {
 
           <div className='project' onClick={() =>  {setButtonPopup(true); setIsGame(false); setTitlePopup(titleVaderApp);setDescriptionPopup(descriptionVaderApp); setImagePopup(imageVaderApp); setVideoPopup(videoVaderapp); setLinkPopup(linkVaderApp)}}> <p>{titleVaderApp}</p><img src={imageVaderApp} alt="" />  </div>
           <div className='project' onClick={() => { setButtonPopup(true); setIsGame(false); setTitlePopup(titleGamesDirectory);setDescriptionPopup(descriptionGamesDirectory); setImagePopup(imageGamesDirectory); setVideoPopup(videoGamesDirectory); setLinkPopup(linkGamesDirectory)}}> <p>{titleGamesDirectory}</p><img src={imageGamesDirectory}alt="" /> </div>
-          <div className='project' onClick={() =>  {setButtonPopup(true); setIsGame(true); setTitlePopup(titleHeroSurvivor);setDescriptionPopup(descriptionHeroSurvivor); setImagePopup(imageVaderApp); setVideoPopup(videoHeroSurvvior); setLinkPopup(linkHeroSurvivor); }}> <p>{titleHeroSurvivor}</p><img src={imageVaderApp} alt="" />  </div>
+          <div className='project' onClick={() =>  {setButtonPopup(true); setIsGame(true); setTitlePopup(titleHeroSurvivor);setDescriptionPopup(descriptionHeroSurvivor); setImagePopup(imageHeroSurvivor); setVideoPopup(videoHeroSurvvior); setLinkPopup(linkHeroSurvivor); }}> <p>{titleHeroSurvivor}</p><img src={imageVaderApp} alt="" />  </div>
           {/* <div className='project'> <img src="https://via.placeholder.com/150" alt="" /> </div>
           <div className='project'> <img src="https://via.placeholder.com/150" alt="" /> </div> */}
          
