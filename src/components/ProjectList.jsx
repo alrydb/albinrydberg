@@ -44,7 +44,7 @@ export default function ProjectList() {
 
           <div className='project' onClick={() =>  {setButtonPopup(true); setIsGame(false); setTitlePopup(titleVaderApp);setDescriptionPopup(descriptionVaderApp); setImagePopup(imageVaderApp); setVideoPopup(videoVaderapp); setLinkPopup(linkVaderApp)}}> <p>{titleVaderApp}</p><img src={imageVaderApp} alt="" />  </div>
           <div className='project' onClick={() => { setButtonPopup(true); setIsGame(false); setTitlePopup(titleGamesDirectory);setDescriptionPopup(descriptionGamesDirectory); setImagePopup(imageGamesDirectory); setVideoPopup(videoGamesDirectory); setLinkPopup(linkGamesDirectory)}}> <p>{titleGamesDirectory}</p><img src={imageGamesDirectory}alt="" /> </div>
-          <div className='project' onClick={() =>  {setButtonPopup(true); setIsGame(true); setTitlePopup(titleHeroSurvivor);setDescriptionPopup(descriptionHeroSurvivor); setImagePopup(imageHeroSurvivor); setVideoPopup(videoHeroSurvvior); setLinkPopup(linkHeroSurvivor); }}> <p>{titleHeroSurvivor}</p><img src={imageVaderApp} alt="" />  </div>
+          <div className='project' onClick={() =>  {setButtonPopup(true); setIsGame(true); setTitlePopup(titleHeroSurvivor);setDescriptionPopup(descriptionHeroSurvivor); setImagePopup(imageHeroSurvivor); setVideoPopup(videoHeroSurvvior); setLinkPopup(linkHeroSurvivor); }}> <p>{titleHeroSurvivor}</p><img src={imageHeroSurvivor} alt="" />  </div>
           {/* <div className='project'> <img src="https://via.placeholder.com/150" alt="" /> </div>
           <div className='project'> <img src="https://via.placeholder.com/150" alt="" /> </div> */}
          
